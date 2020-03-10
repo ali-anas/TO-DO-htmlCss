@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO-DO App</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>TO-DO:</h1>
+        <div id="input">
+            <input type="text" id="task" placeholder="add task">
+            <button id="add">Add</button>
+            <button id="clear">Clear All</button>
+            <p id="error"></p>
+        </div>
+        <div class="listBox">
+        <h2>PENDING TASK</h2>
+        	<ul id="taskList"></ul>
+        	</div>
+        <div class="listBox">
+        	<h2>COMPLETED TASK</h2>
+        	<ul id="completeList"></ul>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

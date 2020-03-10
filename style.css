@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
+:root {
+	--green: #28a428;
+	--red: #ff0000;
+	--white: #ffffff;
+	--primary: #396dff;
+	--black: #000000;
+	--blue: #0066ff;
+	--orange: #e65c00;
+	--grey: #1a1a1a;
+	
+	--xs: 4px;
+	--s: 8px;
+	--m: 16px;
+	--l: 24px;
+}
+
+body {
+	background-color: var(--black);
+}
+
+#input {
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	color: var(--white);
+	text-align: center;
+	margin: 20px 10px 10px 10px;
+	font-size: 75px;
+}
+
+h2 {
+	color: var(--white);
+	text-align: center;
+	margin: 20px 10px 10px 10px;
+}
+
+#task {
+	padding: 20px;
+	color: var(--white);
+	background-color: #1a1a1a;
+	border: 2px solid var(--orange);
+	border-radius: 8px;
+	width: 630px;
+	font-size: var(--m);
+}
+
+#task:hover {
+	box-shadow: 0 2px 2px 0 #737373, 0 2px 16px 0 #737373;
+}
+
+button#add {
+	background-color: var(--green);
+	color: var(--white);
+	border: 2px solid var(--green);
+	border-radius: 8px;
+	width: 150px;
+	padding: 20px 0;
+	margin: 0 10px 0 10px;
+	font-size: var(--m);
+}
+
+button#clear {
+	background-color: var(--red);
+	color: var(--white);
+	border: 2px solid var(--red);
+	border-radius: 8px;
+	width: 150px;
+	padding: 20px 0;
+	font-size: var(--m);
+}
+
+button#add:hover {
+	box-shadow: 2px 2px 2px 0 #99ffff, 0 2px 8px 0 #99ffff;
+}
+
+button#clear:hover {
+	background-color: var(--red);
+	color: var(--white);
+	box-shadow: 2px 2px 2px 0 #99ffff, 0 2px 8px 0 #99ffff;
+}
+
+.listBox {
+	background-color: var(--grey);
+	border-radius: 8px;
+	width: 75%;
+	margin: 40px auto 0 auto;
+	padding: 10px;
+}
+
+.listBox:hover {
+	box-shadow: 0 2px 2px 0 #737373, 0 2px 16px 0 #737373;
+}
+
+ul {
+	list-style-type: none;
+	width: 98%;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	padding: 0;
+}
+
+li {
+	overflow: hidden;
+  	text-overflow: ellipsis; 
+	text-align: center;
+	margin: 0 0 15px 0;
+	background-color: var(--blue);
+	border-radius: 8px;
+	color: var(--white);
+	font-weight: 600;
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+
+li:hover {
+	box-shadow: 0 2px 2px 0 #99ffff, 0 2px 8px 0 #99ffff;
+}
+
+
+
+button.remove {
+	background-color: var(--red);
+	color: var(--white);
+	border: 2px solid var(--red);
+	border-radius: 8px;
+	width: 100px;
+	padding: 10px 0;
+	font-size: var(--m);
+}
+
+button.complete {
+	background-color: var(--green);
+	color: var(--white);
+	border: 2px solid var(--green);
+	border-radius: 8px;
+	width: 150px;
+	padding: 10px 0;
+	font-size: var(--m);
+}
